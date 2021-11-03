@@ -1,7 +1,6 @@
 import { AccountCircle } from '@mui/icons-material';
 import { IconButton, Menu, MenuItem } from '@mui/material';
 import React from 'react';
-import { SimpleDialog } from '../../../../components';
 
 export const ProfileBtn = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);

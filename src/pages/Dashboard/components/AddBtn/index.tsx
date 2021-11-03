@@ -1,8 +1,6 @@
-import { IconButton, Link, Menu, MenuItem, Typography } from '@mui/material';
-import { SimpleDialog } from 'components';
+import { IconButton, Menu, MenuItem } from '@mui/material';
 import AddRoundedIcon from '@mui/icons-material/AddRounded';
 import React from 'react';
-import { Box } from '@mui/system';
 import { Disclaimer } from './Disclaimer';
 import { FormModal } from './FormModal';
 import { AddBtnProps } from './type';

@@ -2,8 +2,7 @@ import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Box, Button, CardActionArea, CardActions, CardHeader, IconButton, Link, Stack } from '@mui/material';
+import { Box, CardActions, IconButton, Stack } from '@mui/material';
 import { cardSx } from './style';
 
 import MoreVertIcon from '@mui/icons-material/MoreVert';

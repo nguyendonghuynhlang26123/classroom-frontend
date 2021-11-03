@@ -20,6 +20,11 @@ jobs:
         run: |
           npm install
           npm run build
+        env:
+          REACT_APP_BACKEND_DOMAIN: https://web-classroom-backend.herokuapp.com
+          REACT_APP_BACKEND_API_END_POINT: api
+          REACT_APP_API_VERSION: v1
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:

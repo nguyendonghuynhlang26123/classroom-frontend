@@ -1,5 +1,4 @@
-import { AccountCircle } from '@mui/icons-material';
-import { Box, Container, IconButton, Menu, MenuItem, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import React from 'react';
 import { Navbar } from '../../components';
 import { drawerItemConfigs } from 'configs';
@@ -8,8 +7,9 @@ import { bodyContainer, cardContainer } from './style';
 import { FormData, ClassData } from './type';
 import ClassroomRepository from './service';
 
+const repository = new ClassroomRepository();
+
 const Dashboard = () => {
-  const repository = new ClassroomRepository();
   const [loading, setLoading] = React.useState<boolean>(false);
   const [classes, setClasses] = React.useState<ClassData[]>([]); //TODO: REPLACE USING REDUX
 

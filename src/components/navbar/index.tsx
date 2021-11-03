@@ -3,7 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
-import { Box, Drawer, IconButton, LinearProgress, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+import { Drawer, IconButton, LinearProgress, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
 import { NavbarProps, DrawerItemType } from './type';
 import { drawerItemSx, drawerListSx, navbarSx } from './style';
 import { Menu } from '@mui/icons-material';

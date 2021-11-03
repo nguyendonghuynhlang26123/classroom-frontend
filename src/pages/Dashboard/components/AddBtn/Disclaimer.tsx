@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconButton, Link, Menu, MenuItem, Typography, Box, Checkbox, Stack, Button } from '@mui/material';
+import { Link, Typography, Box, Checkbox, Stack, Button } from '@mui/material';
 import { SimpleDialog } from 'components';
 import { disclaimerStyle } from './style';
 import { DisclaimerProps } from './type';
