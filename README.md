@@ -3,7 +3,7 @@
 Name: Nguyễn Đăng Huỳnh Long \
 Student ID: 18127136 \
 Deployed: https://nguyendonghuynhlang26123.github.io/classroom-frontend/  \
-[![deployed](https://github.com/nguyendonghuynhlang26123/classroom-frontend/actions/workflows/workflow.yml/badge.svg)](https://github.com/nguyendonghuynhlang26123/classroom-frontend/actions/workflows/workflow.yml)
+[![deployed](https://github.com/nguyendonghuynhlang26123/classroom-frontend/actions/workflows/deploy.yml/badge.svg)](https://github.com/nguyendonghuynhlang26123/classroom-frontend/actions/workflows/deploy.yml)
 # Project information
 - This project is the homework#03 for Course: Advanced Web Application Development 
 - This project is built using [ReactJS](https://reactjs.org/docs/hooks-reference.html) & [Typescript](https://www.typescriptlang.org/) and [Github action](https://github.com/features/actions) to automatically deploy project.
